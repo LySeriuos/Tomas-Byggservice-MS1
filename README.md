@@ -1,45 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Introduction
+---
+This comprehensive website was designed for my friend´s company called Tomas&Byggservice i Skåne. The main goal of the site is to show work examples, progress of the company and to be contacted easily by filling up a form about customers project.
 
-Welcome USER_NAME,
+Tomas&Byggservice is a building company whcih is based in south Sweden. The company is started in 2016 and by doing quality job is very succesfull. This company is capable to make many individual projects. It is very important to share different expierence they had been working on to find potcial customers. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Tomas&Byggservise is my fisrt Milestone project and this is 1 of 4 projects during the Software Developer Program at The Code institute.
 
-## Gitpod Reminders
+Requirements:
+1. HTML, CSS
+2. Static front end project: Write custom HTML5 and CSS3 code to create a website of at least 3 pages.
+3. Information Architecture: Incorporate a main navigation menu and structured layout.
+4. Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+5. Version Control: Use Git & GitHub for version control.
+6. ttribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+7. Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Back to Top!
 
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
+UX
 ---
 
-Happy coding!
+The potential user of this website:
+* New and old customers
+
+What custmers are wwilling to find:
+
+* As a new customer I would like to find easilly full comtact information.
+* As new customer I want to be contacted deppend on my project.
+* As new customer I would like to have a chance to write about my project directly in the webpage.
+* As an old customer I would like to see the progress of the company.
+* As an old customer I would like to recomend company thru the webpage.
+
+Development Planes
+
+To get the best results I worked together with the client, Tomas&Byggservice i Skåne owner, for informative, functional and comprehensive website.
+
+Strategy and Scope
+
+The website will focus on the following:
+
+* Information about the company
+* Work examples in the gallery
+* Easy-access contacts.
+* Social media connectons for latests updates
+
+A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories:
+
+Content Requirements
+
+The user will be looking for:
+Information about the company
+Done projects images and descriptions.
+Contacts
+Social Media
+
+Functionality Requirements
+
+The user will be able to:
+Navigate on the different screen sizes comfortably 
+Get estimate of the future project
+Get the information about the done projects
+Easily contact the company
+Connect with the company thru the social media
+
+
+
+
+
+
+
+
