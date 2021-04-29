@@ -26,7 +26,17 @@
          background-color: #ffffff;
      }
 
-     footer .conatiner {
+     footer {
+         color: #ffffff;
+     }
+
+     
+     
+     footer .container {
          width: 100%;
+     }
+
+     footer li i{
+         font-size: 1.5em;
      }
     
