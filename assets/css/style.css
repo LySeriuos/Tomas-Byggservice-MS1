@@ -20,7 +20,7 @@
         color: #ffffff;
     }
      .navbar .nav-item.active .nav-link {
-         color: rgb(163, 156, 156);
+         color: #775a5a;
      }
      .navbar-toggler {
          background-color: #ffffff;
@@ -63,7 +63,7 @@
      }
      /* Body styling*/ 
 
-     body {
+     .index {
          background: url(../web-images/building-tools.jpg) no-repeat center center fixed;
          position: relative;
          -webkit-background-size: cover;
@@ -93,13 +93,30 @@
      }
      .text-align {
      color: #ffffff;
-     background-color: rgba(61, 41, 27, 0.7);
-    
+     background-color: rgba(61, 41, 27, 0.7);    
      padding: 20px;
      margin-left: 0;
      border-right: 0;
      text-align: center;
-     margin-top: 50px;    
+     margin-top: 50px;   
+     
+    }
+    .text-align-left {
+        width: max-content;
+    }
+
+    .text-align-right {
+        width: max-content;
+    }
+
+    .line-style {
+        width: 70%;
+        size: 10;
+        height:5px;
+        border-width:0;
+        color:#ffffff;
+        background-color:#ffffff;
+        margin-top: 50px;
     }
     /* Button styling  */
 
@@ -114,11 +131,10 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  align-items: center;
-  min-height: 100px;
   background-color: rgba(61, 41, 27, 0.7);
-  align-self: center;
- 
+  text-align: center; 
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .container .btn:hover {
@@ -135,8 +151,12 @@ main .container a:hover {
 
 @media screen and (min-width: 711px) {
   main h2 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px;
+  }
+  .container .btn {
+       margin-top: 50px;
+  margin-bottom: 50px;
   }
 }
 
@@ -145,19 +165,91 @@ main .container a:hover {
     font-size: 24px;
     padding: 0;
   }
+  header h1 {
+     font-size: 24px; 
+  }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 1010px) {
  #hiding {
     display: none;
   }
 }
 
-@media screen and (max-width: 710px) {
+
+@media screen and (max-width: 1010px) {
  .text-right {
    clear: both;
   }
 }
 
-        
-        
+@media screen and (max-width: 500px) {
+ .text-right h7 {
+    display: none;
+  }
+}
+  /* About us  */    
+  
+ /* Image style */ 
+
+.bg-image{ 
+  background-image: url("../web-images/people_on_roof.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+  margin: 0;
+  height: 100vh;
+  width: 100vh;
+  clear: both;
+}
+ /* Button style*/
+
+.btn-about {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 16px 16px 16px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgba(61, 41, 27, 0.7);
+  text-align: center; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: max-content;
+  }
+  .btn-about h3 {
+      color: #ffffff;
+  }
+  .container h2 {
+      margin-top: 50px;
+  }
+
+  .container .btn-about:hover {
+  text-decoration: none;
+    background-color: rgba(61, 41, 27, 0.9);
+  color: white;
+}
+
+  /* Underline style */
+  .line-style-about {
+       width: 70%;
+        size: 10;
+        height:5px;
+        border-width:0;
+        color:rgba(61, 41, 27, 0.7);
+        background-color:rgba(61, 41, 27, 0.7);
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+.container p {
+    font-size: larger;
+}
+
