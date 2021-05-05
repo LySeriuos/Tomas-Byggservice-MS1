@@ -2,7 +2,7 @@
 
 /*     <!--- Colours --->         */
 .navbar {
-    background: #3D291B;
+    background: rgba(61, 41, 27, 0.5);
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     
@@ -28,15 +28,132 @@
 
      footer {
          color: #ffffff;
+         background-color: rgba(61, 41, 27, 0.5);
+        
      }
+    
+       /* Html */
 
+       html {
+           height: 100%;
+       }
      
+
+     /* Footer */
      
      footer .container {
          width: 100%;
+     }
+     footer {
+         margin-top: auto;
      }
 
      footer li i{
          font-size: 1.5em;
      }
     
+     /* Background image */
+
+          #background-picture {
+         height: 100%;
+     }
+     /* Body styling*/ 
+
+     body {
+         background: url(../web-images/building-tools.jpg) no-repeat center center fixed;
+         position: relative;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+     }
+     body {
+         margin: auto;
+         font-family: "Exo" sans-serif;
+         display: flex;
+         flex-direction: column;
+         max-height: 100%;
+         max-width: 100%;
+         
+          }
+          /* Header*/ 
+
+    
+
+       /*
+        
+         section {            
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        }
+
+        .text-align {
+        max-width: 100%;
+        margin: auto;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(61, 41, 27, 0.5);
+        color: #ffffff;
+        background-size: contain;
+       
+        }
+*/
+.container {
+    display: grid;
+    min-height: 90vh;
+   grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   
+   }
+.text-align {
+    color: #ffffff;
+    background-color: rgba(61, 41, 27, 0.7);
+    
+    padding: 20px;
+    margin-left: 0;
+    border-right: 0;
+     text-align: center;
+     margin-top: 50px;
+
+    
+}
+
+/* media query */
+
+@media screen and (min-width: 711px) {
+  main h2 {
+    font-size: 50px;
+    padding: 20px;
+  }
+}
+
+  @media screen and (max-width: 710px) {
+ main h2{
+    font-size: 24px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 710px) {
+ #hiding {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 710px) {
+ .text-right {
+   clear: both;
+  }
+}
+
+        
+        
