@@ -2,7 +2,7 @@
 
 /*     <!--- Colours --->         */
      .navbar {
-     background: rgba(61, 41, 27, 0.5);
+     background: rgba(61, 41, 27, 0.7);
      font-family: "Open Sans", sans-serif;
      font-weight: 700;
     
@@ -28,13 +28,18 @@
 
      footer {
          color: #ffffff;
-         background-color: rgba(61, 41, 27, 0.5);
+         background-color: rgba(61, 41, 27, 0.7);
         
      }
      .btn .btn-contact {
-        background-color: rgba(61, 41, 27, 0.5);
+        background-color: rgba(61, 41, 27, 0.7);
         color: #ffffff;        
      }
+     /* Nav Styling */
+
+     .nav-link {
+    padding: 0;
+     }        
     
        /* Html */
 
@@ -188,6 +193,8 @@ main .container a:hover {
     display: none;
   }
 }
+ 
+
   /* About us  */    
   
  /* Image style */ 
@@ -197,10 +204,10 @@ main .container a:hover {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-         -webkit-background-size: cover;
-         -moz-background-size: cover;
-         -o-background-size: cover;
-         background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+ background-size: cover;
   margin: 0;
   height: 100vh;
   width: 100vh;
@@ -252,4 +259,50 @@ main .container a:hover {
 .container p {
     font-size: larger;
 }
+/* Gallery */
+
+.index-gallery {
+         background: url(../web-images/pexels-ksenia-chernaya-painting-walls.jpg) no-repeat center center fixed;
+         position: relative;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+     }  
+
+/* Carousel */
+
+.carousel-inner {
+  width:80%;
+  margin: auto;
+  margin-top: 50px;
+    }
+
+/* Gallery styling */
+
+#gallery-text {
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(61, 41, 27, 0.7);
+    width: max-content;
+    margin: 50px auto;
+    }
+
+    /* Contact us */
+
+    #contact-us-form {
+        color: #ffffff;       
+    }
+    #text-area {
+         background-color: rgba(61, 41, 27, 0.7);
+         color: #ffffff;
+    }
+
+    #contact-us-style {
+        color: #ffffff;
+        background-color: rgba(61, 41, 27, 0.7);
+        padding-bottom: 50px;
+    }
+    
+
 
