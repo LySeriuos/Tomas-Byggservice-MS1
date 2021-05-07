@@ -261,14 +261,7 @@ main .container a:hover {
 }
 /* Gallery */
 
-.index-gallery {
-         background: url(../web-images/pexels-ksenia-chernaya-painting-walls.jpg) no-repeat center center fixed;
-         position: relative;
-         -webkit-background-size: cover;
-         -moz-background-size: cover;
-         -o-background-size: cover;
-         background-size: cover;
-     }  
+
 
 /* Carousel */
 
@@ -289,13 +282,24 @@ main .container a:hover {
     }
 
     /* Contact us */
-
-    #contact-us-form {
-        color: #ffffff;       
-    }
+    
+    .index-contact-us {
+  background: url(../web-images/pexels-cottonbro-tools_and_light-bulb.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-position: 25% 80%;
+}    
     #text-area {
-         background-color: rgba(61, 41, 27, 0.7);
-         color: #ffffff;
+       
+        background-color: rgba(61, 41, 27, 0.7);      
+    }
+    .container .form-group ::placeholder {
+         
+        
+        color: #fff;
+         
+         
     }
 
     #contact-us-style {
@@ -304,5 +308,5 @@ main .container a:hover {
         padding-bottom: 50px;
     }
     
-
-
+   
+  
