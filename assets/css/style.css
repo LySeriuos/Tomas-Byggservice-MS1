@@ -35,6 +35,15 @@
         background-color: rgba(61, 41, 27, 0.7);
         color: #ffffff;        
      }
+    #text-area {
+       
+        background-color: rgba(61, 41, 27, 0.7);      
+     }
+    .container .form-group ::placeholder {        
+        color: #fff;
+         
+     }
+
      /* Nav Styling */
 
      .nav-link {
@@ -290,23 +299,20 @@ main .container a:hover {
   height: auto;
   background-position: 25% 80%;
 }    
-    #text-area {
-       
-        background-color: rgba(61, 41, 27, 0.7);      
-    }
-    .container .form-group ::placeholder {
-         
-        
-        color: #fff;
-         
-         
-    }
-
     #contact-us-style {
         color: #ffffff;
         background-color: rgba(61, 41, 27, 0.7);
         padding-bottom: 50px;
     }
     
-   
+    #text-area {
+        font-size: larger;
+        text-align: center;
+    }
+
+    .container .form-group input{
+    color: #ffffff;
+}
+
+
   
