@@ -186,7 +186,7 @@ main .container a:hover {
   margin: 50px 0px 50px 0px
 }
 .side-about-paragraph {
-  margin: 50px
+  margin: 50px;
 }
 #header-about {
   margin-top: 50px;
@@ -194,21 +194,23 @@ main .container a:hover {
  /* Button style*/
 
 .btn-about {
+  margin: 50px auto;
   position: relative;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 16px;
+  top: 50%;
+  
+  font-size: 5vh;;
   padding: 16px 16px 16px 16px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   background-color: rgba(61, 41, 27, 0.7);
   text-align: center; 
-  margin-top: 50px;
-  margin-bottom: 50px;
+  
   width: max-content;
+  }
+
+  .btn-contact-about {
+    margin-top:50px;
   }
   .btn-about h3 {
       color: #ffffff;
@@ -231,7 +233,7 @@ main .container a:hover {
         border-width:0;
         color:rgba(61, 41, 27, 0.7);
         background-color:rgba(61, 41, 27, 0.7);
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 50px;
   }
 .container p {
@@ -282,13 +284,24 @@ main .container a:hover {
     .container .form-group input{
     color: #ffffff;
 }
-
-
+/* responsive font size*/
+h1 {
+  font-size: 3vh;
+}
+h2 {
+  font-size: 4.5vh;
+}
+p{
+  font-size: 2vh; 
+}
+h3{
+  font-size: 2.5vh;
+}
 /* media query */
 
 @media screen and (min-width: 711px) {
   main h2 {
-    font-size: 40px;
+    
     padding: 20px;
   }
   .container .btn {
@@ -299,8 +312,8 @@ main .container a:hover {
 
   @media screen and (max-width: 710px) {
  main h2{
-    font-size: 24px;
-    padding: 0;
+    
+    padding: 50px 10px 20px 10px;
   }
   header h1 {
      font-size: 24px; 
