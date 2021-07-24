@@ -161,47 +161,6 @@ main .container a:hover {
 }
   
 
-/* media query */
-
-@media screen and (min-width: 711px) {
-  main h2 {
-    font-size: 40px;
-    padding: 20px;
-  }
-  .container .btn {
-       margin-top: 50px;
-  margin-bottom: 50px;
-  }
-}
-
-  @media screen and (max-width: 710px) {
- main h2{
-    font-size: 24px;
-    padding: 0;
-  }
-  header h1 {
-     font-size: 24px; 
-  }
-}
-
-@media screen and (max-width: 1010px) {
- #hiding {
-    display: none;
-  }
-}
-
-
-@media screen and (max-width: 1010px) {
- .text-right {
-   clear: both;
-  }
-}
-
-@media screen and (max-width: 500px) {
- .text-right h7 {
-    display: none;
-  }
-}
  
 
   /* About us  */    
@@ -218,9 +177,19 @@ main .container a:hover {
    -o-background-size: cover;
  background-size: cover;
   margin: 0;
-  height: 100vh;
+  height: 90vh;
   width: 100vh;
   clear: both;
+}
+/* centering page */
+.side-about {
+  margin: 50px 0px 50px 0px
+}
+.side-about-paragraph {
+  margin: 50px
+}
+#header-about {
+  margin-top: 50px;
 }
  /* Button style*/
 
@@ -315,4 +284,45 @@ main .container a:hover {
 }
 
 
+/* media query */
+
+@media screen and (min-width: 711px) {
+  main h2 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .container .btn {
+       margin-top: 50px;
+  margin-bottom: 50px;
+  }
+}
+
+  @media screen and (max-width: 710px) {
+ main h2{
+    font-size: 24px;
+    padding: 0;
+  }
+  header h1 {
+     font-size: 24px; 
+  }
+}
+
+@media screen and (max-width: 1010px) {
+ #hiding {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1010px) {
+ .text-right {
+   clear: both;
+  }
+}
+
+@media screen and (max-width: 500px) {
+ .text-right h7 {
+    display: none;
+  }
+}
   
