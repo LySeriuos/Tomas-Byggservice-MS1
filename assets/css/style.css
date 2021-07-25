@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 /*     <!--- Colours --->         */
-     .navbar {
+    .navbar {
      background: rgba(61, 41, 27, 0.7);
      font-family: "Open Sans", sans-serif;
      font-weight: 700;
@@ -59,7 +59,7 @@
 
      /* Footer */
      
-     footer .container {
+     footer .container-fluid-index {
          width: 100%;
      }
      footer {
@@ -84,7 +84,7 @@
          -moz-background-size: cover;
          -o-background-size: cover;
          background-size: cover;
-        
+        height: 100%;
      }
      body {
          margin: 0 auto;
@@ -96,7 +96,7 @@
          
           }
          
-     .container {
+     .container-md-6 {
      display: grid;
      min-height: 90vh;
      grid-gap: 20px;
@@ -297,12 +297,16 @@ h1 {
 h2 {
   font-size: 4.5vh;
 }
-p{
+p {
   font-size: 2vh; 
 }
-h3{
+h3 {
   font-size: 2.5vh;
 }
+h4 {
+  font-size: calc(18px + 1.2vh);
+}
+
 /* media query */
 
 @media screen and (min-width: 711px) {
@@ -344,4 +348,12 @@ h3{
     display: none;
   }
 }
-  
+@media screen and (min-width: 1011px) {
+  .my-container {
+          margin: 100px auto;
+          padding-top: 80px;
+   }}
+   @media screen and (min-width: 1011px) {
+   .my-row {
+     height: 400px;
+   }}
