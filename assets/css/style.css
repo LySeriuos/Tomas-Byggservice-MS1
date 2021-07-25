@@ -84,9 +84,10 @@
          -moz-background-size: cover;
          -o-background-size: cover;
          background-size: cover;
+        
      }
      body {
-         margin: auto;
+         margin: 0 auto;
          font-family: "Exo" sans-serif;
          display: flex;
          flex-direction: column;
@@ -192,12 +193,15 @@ main .container a:hover {
   margin-top: 50px;
 }
  /* Button style*/
+ a:hover {
+   text-decoration: none;
+ }
 
 .btn-about {
   margin: 50px auto;
   position: relative;
   top: 50%;
-  
+  outline: none;
   font-size: 5vh;;
   padding: 16px 16px 16px 16px;
   border: none;
@@ -205,12 +209,14 @@ main .container a:hover {
   border-radius: 5px;
   background-color: rgba(61, 41, 27, 0.7);
   text-align: center; 
-  
+  text-decoration: none;
   width: max-content;
   }
 
   .btn-contact-about {
     margin-top:50px;
+    outline: none;
+    text-decoration: none;
   }
   .btn-about h3 {
       color: #ffffff;
