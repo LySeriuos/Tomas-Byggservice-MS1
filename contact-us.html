@@ -73,8 +73,8 @@
 
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
  <ul class="navbar-nav ml-auto">
-   <li class="nav-item active">
-     <a class="nav-link" href="index.html"><h5>Home</h5><span class="sr-only">(current)</span></a>
+   <li class="nav-item">
+     <a class="nav-link" href="index.html"><h5>Home</h5>
    </li>
    <li class="nav-item">
      <a class="nav-link" href="about-us.html"><h5>About Us</h5></a>
@@ -82,8 +82,8 @@
    <li class="nav-item">
      <a class="nav-link" href="gallery.html"><h5>Gallery</h5></a>
    </li>
-    <li class="nav-item">
-     <a class="nav-link" href="contact-us.html"><h5>Contact</h5></a>
+    <li class="nav-item active">
+     <a class="nav-link" href="contact-us.html"><h5>Contact</h5></a><span class="sr-only">(current)</span></a>
    </li>      
 </div>
 </nav>
@@ -93,7 +93,7 @@
  <div class="container contact-container">
      <div class="row justify-content-around align-items-center my-row">
          <div class="col-lg-4 contact-col">
-          <h5>Please fill up this form and we will contact you!</h5>
+          <h5 class="contact-text-padding">Please fill up this form and we will contact you!</h5>
           <form>
             <div class="form-group">
                 <input type="text" class="form-control" id="text-area" placeholder="Your name here:">
@@ -108,14 +108,17 @@
              <textarea class="form-control" id="text-area" rows="4" placeholder="Tell us about your project here:"></textarea>
            </div>
            </form>
+           <hr class="line-style-contact">
            
            <button type="submit" class="btn-submit btn-contact btn-primary justify-content-around">Send!</button>
          </div>
          <div class="col-lg-4 contact-col">
           <ul class="list-unstyled" id="contact-us-style">
             <li><h4>Company details</h4></li>
+            <li><hr class="line-style-contact"></li>
+
             <li><h5>Tomas&Byggservice i Skåne</h5></li>
-            <li><h5>Email:<br>byggservice.tomas@gmail.com</h5></li>
+            <li><h5>Email:<br>byggservice.tomas @gmail.com</h5></li>
             <li><h5>Phone number:<br>+46728580744</h5></li>
             <li><h5>Adress:<br>ÖREBYVÄGEN 29<br>261 93 Saxtorp<br>Skåne</h5></li>                    
          </ul>
