@@ -314,6 +314,12 @@ main .container a:hover {
      .carousel {
        margin-bottom: 50px;
      }
+     .carousel-control-prev {
+      width: 25%; 
+    }
+    .carousel-control-next {
+      width: 25%;
+    }
 
 
     /* Contact us */
