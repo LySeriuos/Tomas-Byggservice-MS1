@@ -54,6 +54,7 @@
 
        html {
            height: 100%;
+           margin: 0 auto;
        }   
        
      /* Footer */
@@ -82,6 +83,9 @@
          height: 100%;
      }
      /* Body styling*/ 
+     .row {
+       margin: 0 auto;
+     }
 
      .index {
          background: url(../web-images/building-tools.jpg) no-repeat center center fixed;
@@ -91,6 +95,7 @@
          -o-background-size: cover;
          background-size: cover;
         height: 100%;
+       
      }
        body {
          margin: 0 auto;
@@ -284,15 +289,32 @@ main .container a:hover {
   margin-top: 50px;
     }
 
+    .carousel-centering {
+      margin: 30px 50px;
+    }
+    
 /* Gallery styling */
+.text-centering {
+  text-align: center;
+}
 
 #gallery-text {
     text-align: center;
-    color: #ffffff;
-    background-color: rgba(61, 41, 27, 0.7);
-    width: max-content;
-    margin: 50px auto;
-    }
+    color:black;
+    padding: 0 20px;
+    margin: 30px 0;
+     }
+     #gallery-text h3 {
+       font-size: 3.5vh;
+     }
+     .carousel-control {
+       color: black;
+     }
+
+     .carousel {
+       margin-bottom: 50px;
+     }
+
 
     /* Contact us */
     
@@ -300,14 +322,14 @@ main .container a:hover {
   background: url(../web-images/pexels-cottonbro-tools_and_light-bulb.jpg) no-repeat center center fixed;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   background-position: 25% 80%;
 }    
-    #contact-us-style {
-        color: #ffffff;
-        background-color: rgba(61, 41, 27, 0.7);
-        padding-bottom: 50px;
-    }
+#contact-us-style {
+  color: #ffffff;
+  background-color: rgba(61, 41, 27, 0.7);
+  padding: 20px;
+}
     
     #text-area {
         font-size: larger;
@@ -317,6 +339,75 @@ main .container a:hover {
     .container .form-group input{
     color: #ffffff;
     }
+    .container .form-group input{
+      color: #fff;
+      }
+      .line-style-contact {
+        width: 100%;
+         height:5px;
+         border-width:0;
+         color: #ffffff;
+         background-color: #ffffff;
+         text-align: center;
+         justify-content: space-around;
+         align-items: center;
+         float: left;       
+      }
+  
+      .contact-text-padding {
+        padding-bottom: 20px;
+      }
+      .contact-container {
+              border: 1px solid #008000;
+           
+              padding-top: 50px;
+              width: 100%;
+              text-align: center;
+          }
+        .contact-col {
+            border: 3px dotted blue;
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+            color: black;
+        }
+        .contact-col-btn {
+           
+             text-align: center;
+             width: 60%;
+             max-width: 400px;
+             padding: 20px;
+             margin-top: 20px;
+             margin-bottom: 20px;
+         }
+         
+         .contact-row-btn {
+           border: 3px solid red;
+             height: 100px;
+         }   
+         .btn-submit {
+           background-color: pink;
+           width: 100px;
+           height: 50px;
+           background-color: rgba(61, 41, 27, 0.7);
+    text-align: center; 
+    text-decoration: none;
+         }
+         .container .btn-submit:hover {
+    text-decoration: none;
+      background-color: rgba(61, 41, 27, 0.9);
+    color: white;
+  }
+  .btn-primary {
+      color: #fff;
+      
+      border-color: rgba(61, 41, 27, 0.7);
+    text-align: center; 
+  }
 /* responsive font size*/
 h1 {
   font-size: 3vh;
@@ -384,3 +475,25 @@ h4 {
    .my-row {
      height: 400px;
    }}
+
+   @media (min-width: 768px){
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    clear: both; 
+    justify-content: right;
+}}
+
+@media (min-width: 1011px){
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+@media screen and (max-width: 768px) {
+  .contact-container {
+  
+  padding-top: 10px;
+  
+}}
